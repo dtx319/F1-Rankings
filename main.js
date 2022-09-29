@@ -37,17 +37,10 @@ myForm.addEventListener('submit', (event)=> {
     tableBody.innerHTML = ''
     const myForm = document.getElementById('form')
     formData = new FormData(myForm)
-    var season = formData.get("year")
+    var year = formData.get("year")
     var round = formData.get("round")
-    seatApiCall(season, round)
+    seatApiCall(year, round)
 })
-
-// function dataRetriever(eventType) {
-//     console.log('hi')
-// }
-
-// dataRetriever('concert')
-
 
 
 seatApiCall()
