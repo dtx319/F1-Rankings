@@ -13,13 +13,17 @@
 <body>
 
     <div id="formDiv">
-        <p>Want to find out past rankings? Enter season or round. 2020 was a great year!</p>
+        <p>Want to find out past rankings? Enter a season year and a round number!</p>
 
         <form action="/action" id="form" method="post">
             <div class="entryPoints">
                 <div class="formGroup">
-                    <label for="">Rankings</label>
-                    <input type="text" id="typeId" name="type">
+                    <label for="">Season Year</label>
+                    <input type="text" id="yearId" name="year">
+                </div>
+                <div class="formGroup">
+                    <label for="">Round</label>
+                    <input type="text" id="roundId" name="round">
                 </div>
             </div>
             <div class="buttonDiv">
