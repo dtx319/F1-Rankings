@@ -1,0 +1,80 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('car.jpg');
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#formDiv {
+    margin: 50px auto;
+    background-color: #f9804466;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    border-radius: 25px;
+}
+
+label {
+    display: inline-block;
+    width: 46px;
+}
+
+input {
+    display: inline-block;
+    width: calc(100% - 53px);
+    background-color: #f9804466;
+    border-color: white;
+    border-radius: 10px;
+}
+
+.buttonDiv {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+button {
+    min-width: 300px;
+    justify-content: center;
+    border-radius: 10px;
+    border-style: solid;
+    border-color: white;
+    background-color:rgba(150, 50, 50, 0);
+    color: white;
+    margin: 10px;
+}
+
+#resultsTable {
+    margin-top: 25px;
+    background-color: #f9804466;
+}
+
+#form {
+    background-color: #f9804466;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+input {
+    margin: 10px;
+    display: flex;
+} 
+
+td {
+    border-style: solid;
+    border-color: rgb(247, 240, 240, 0.8);
+    color: white;
+}
+
+a {
+    color: white;
+}

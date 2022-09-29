@@ -1,0 +1,56 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./main.css">
+</head>
+
+<body>
+
+    <div id="formDiv">
+        <p>Want to find out past rankings? Enter season or round. 2020 was a great year!</p>
+
+        <form action="/action" id="form" method="post">
+            <div class="entryPoints">
+                <div class="formGroup">
+                    <label for="">Rankings</label>
+                    <input type="text" id="typeId" name="type">
+                </div>
+            </div>
+            <div class="buttonDiv">
+                <button type="submit">Get Rankings</button>
+            </div>
+        </form>
+
+        <table id="resultsTable">
+            <thead>
+                <tr>
+                    <td>Position</td>
+                    <td>Driver</td>
+                    <td>Car</td>
+                </tr>
+            </thead>
+            <tbody id="tableBody"></tbody>
+        </table>
+
+
+        <template id="myTemplate">
+            <tr>
+                <td id="position"></td>
+                <td id="driver"></td>
+                <td id="car"></td>
+            </tr>
+        </template>
+
+    </div>
+
+
+    <script src="./main.js"></script>
+</body>
+
+</html>
