@@ -47,6 +47,10 @@ input {
     margin-bottom: 10px;
 }
 
+.textEntry {
+    display: flex;
+}
+
 button {
     min-width: 300px;
     justify-content: center;
