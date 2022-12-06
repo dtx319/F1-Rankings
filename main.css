@@ -16,7 +16,7 @@ body {
 #formDiv {
     margin: 50px auto;
     background-color: #f9804466;
-    align-items: center;
+    justify-content: center;
     color: white;
     border-radius: 25px;
 }
@@ -28,7 +28,7 @@ label {
 
 input {
     display: inline-block;
-    width: calc(100% - 53px);
+    width: 100%;
     background-color: #f9804466;
     border-color: white;
     border-radius: 10px;
