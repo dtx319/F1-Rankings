@@ -23,7 +23,7 @@ body {
 
 label {
     display: inline-block;
-    width: 46px;
+    margin-top: 10px;
 }
 
 input {
@@ -43,6 +43,7 @@ input {
     display: flex;
     justify-content: center;
     margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .textEntry {
@@ -65,6 +66,8 @@ button {
     background-color: #f9804466;
     display: flex;
     justify-content: center;
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 #form {
@@ -74,7 +77,6 @@ button {
 }
 
 input {
-    margin: 10px;
     display: flex;
 } 
 
