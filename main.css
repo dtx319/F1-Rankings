@@ -13,6 +13,10 @@ body {
     justify-content: center;
 }
 
+formText {
+    display: flex;
+}
+
 #formDiv {
     margin: 50px auto;
     background-color: #f9804466;
@@ -34,6 +38,11 @@ input {
     background-color: #f9804466;
     border-color: white;
     border-radius: 10px;
+}
+
+.formText {
+    display: flex;
+    color: black;
 }
 
 .buttonDiv {
