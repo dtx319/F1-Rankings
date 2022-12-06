@@ -13,10 +13,6 @@ body {
     justify-content: center;
 }
 
-formText {
-    display: flex;
-}
-
 #formDiv {
     margin: 50px auto;
     background-color: #f9804466;
