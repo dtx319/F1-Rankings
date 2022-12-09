@@ -42,5 +42,4 @@ myForm.addEventListener('submit', (event)=> {
     seatApiCall(year, round)
 })
 
-
 seatApiCall()
