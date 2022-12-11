@@ -1,4 +1,3 @@
-
 function seatApiCall(year,round) {
     fetch(`https://ergast.com/api/f1/${year}/${round}/driverStandings.json`)
         .then((res) => res.json())
